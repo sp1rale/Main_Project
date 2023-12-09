@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4cc8998c-41ea-440d-b5f0-27746266ddc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{25490623-f84d-4b18-9799-2db65641038c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{ff0f4b95-018d-45f6-a314-5b07b8d5f186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Entity">
+      <UniqueIdentifier>{f67ece43-7c81-402b-a28a-a8b0b339ad8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Lib">
+      <UniqueIdentifier>{6176a92b-66a7-4c86-9e4f-d8de763850bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Entity\Player">
+      <UniqueIdentifier>{f265a6b9-850e-4689-a8e8-d23ee1d5ba93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.h">
+      <Filter>Core\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Core\Entity\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Core\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
